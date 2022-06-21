@@ -7,9 +7,9 @@ class MissionCard extends React.Component {
     return (
       <div data-testid="mission-card">
         <h3 data-testid="mission-name">{ name }</h3>
-        <h3 data-testid="mission-year">{ year }</h3>
-        <h3 data-testid="mission-country">{ country }</h3>
-        <h3 data-testid="mission-destination">{ destination }</h3>
+        <p data-testid="mission-year">{ year }</p>
+        <p data-testid="mission-country">{ country }</p>
+        <p data-testid="mission-destination">{ destination }</p>
       </div>
     );
   }
